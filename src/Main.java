@@ -169,22 +169,22 @@ q на w с остатком.
  * Например, среди чисел 8,5 и 11,45 ближайшее к десяти 11,45.
  */
 
-//import java.util.Scanner;
-//public class Main {
-//
-//    public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        System.out.println("Enter the first number: ");
-//        float number1 = in.nextFloat();
-//        System.out.println("Enter the second number: ");
-//        float number2 = in.nextFloat();
-//        if (Math.abs(number1 - 10) > Math.abs(number2 - 10))
-//            System.out.println("Closer to 10 the second number");
-//        else if (Math.abs(number1 - 10) < Math.abs(number2 - 10))
-//            System.out.println("Closer to 10 the first number");
-//        else if (Math.abs(number1 - 10) == Math.abs(number2 - 10))
-//            System.out.println("Both numbers at the same distance");
-//    }
-//}
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the first number: ");
+        float number1 = in.nextFloat();
+        System.out.println("Enter the second number: ");
+        float number2 = in.nextFloat();
+        if (Math.abs(number1 - 10) > Math.abs(number2 - 10))
+            System.out.println("Closer to 10 the second number");
+        else if (Math.abs(number1 - 10) < Math.abs(number2 - 10))
+            System.out.println("Closer to 10 the first number");
+        else if (Math.abs(number1 - 10) == Math.abs(number2 - 10))
+            System.out.println("Both numbers at the same distance");
+    }
+}
 
 
